@@ -13,8 +13,8 @@ This project is an intelligent book management system built using FastAPI, SQLAl
 
 ## Requirements
 
-- Python 3.8+
-- PostgreSQL 13+ (locally running)
+- Python 3.10
+- PostgreSQL 14.13 (locally running)
 - FastAPI
 - SQLAlchemy (async support)
 - `databases` package
@@ -27,6 +27,5 @@ This project is an intelligent book management system built using FastAPI, SQLAl
 Clone the repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/your-repo/book-management-system.git
-cd book-management-system
+https://github.com/shonaksahu/Book-Management
 pip install -r requirements.txt
