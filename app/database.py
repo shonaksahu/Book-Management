@@ -7,7 +7,7 @@ from sqlalchemy.future import select
 from sqlalchemy.ext.asyncio import create_async_engine
 from app.models import Base
 
-DATABASE_URL = "postgresql+asyncpg://username:password@localhost/bookmanagement" 
+DATABASE_URL = "postgresql+asyncpg://postgres:postgres@localhost/bookmanagement"
 
 # Database engine and session setup for async SQLAlchemy
 engine = create_async_engine(DATABASE_URL, echo=True)
